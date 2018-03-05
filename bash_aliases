@@ -1,2 +1,4 @@
 alias ll='ls -lhA'
-alias fproc='ps -aux | grep '.*$1.*'
+fproc(){
+	ps -aux | grep ".*$1.*"
+}

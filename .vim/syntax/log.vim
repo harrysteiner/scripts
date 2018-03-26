@@ -17,3 +17,12 @@ highlight ComCoreValueNOK ctermbg=Red ctermfg=White
 
 syntax match ComCoreValuePressure "\v/\d+/\d+/\d+"
 highlight ComCoreValuePressure ctermbg=Yellow ctermfg=Black
+
+syntax match CommandParameterTest "\vtest(\.\w+)+"
+highlight CommandParameterTest ctermbg=DarkGray ctermfg=Cyan
+
+syntax match CommandParameterDevice "\vdevice(\.\w+)+"
+highlight CommandParameterDevice ctermbg=DarkGray ctermfg=Magenta
+
+syntax match Command "\v\[MM\]:cmd"
+highlight Command ctermbg=DarkGray ctermfg=Yellow
